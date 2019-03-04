@@ -97,15 +97,15 @@ nav {
 }
 
 /* second section - items 2nd line */
-/* .small-left-image {
+.small-left-image {
     background: green;
-    height: 20%;
-} */
+    width: 50%;
+}
 .small-down-image {
     background: rgb(33, 33, 37);
     border-top: solid whitesmoke 2px;
     border-right: solid whitesmoke 2px;
-    height: 33.333%;
+    width: 50%;
 }
 .small-corner-image {
     background: rgb(0, 204, 255);
@@ -157,14 +157,18 @@ nav {
 .small-down-middle {
     background: rgb(246, 66, 66);
     border-top: solid whitesmoke 2px;
-    height: 16.66%;
-    margin: 1 1 auto;
+    width: 50%;
 }
 
 .small-down-right {
     background: rgb(255, 135, 135);
-    height: 16.66%;
-    margin: 1 1 auto;
+    width: 50%;
+}
+
+.row-image {
+    display: flex;
+    align-items: stretch;
+    height: 33.333%;
 }
 
 /* fourth section - container */
